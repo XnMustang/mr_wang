@@ -24,7 +24,7 @@ import java.util.UUID;
 public class FileUploadController {
 
     //创建目录 以时间格式
-    SimpleDateFormat sfd = new SimpleDateFormat("/yyyy/MM/dd");
+    SimpleDateFormat sfd = new SimpleDateFormat("/yyyy/MM/dd/");
 
     /**
      * 上传文件
